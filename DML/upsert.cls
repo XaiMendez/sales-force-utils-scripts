@@ -1,6 +1,3 @@
-//http://mytutorialrack.com/
-//Check the complete course here https://mytutorialrack.com/salesforce-platform-developer-1-certification-course/
-
 //Example for upserting the Customer records
 List<apex_customer__c> CustomerList = new List<apex_customer__c>();
 apex_customer__c cus = [SELECT Id, apex_external_id__c,APEX_Customer_Description__c FROM apex_customer__c WHERE apex_external_id__c = '1234'];
