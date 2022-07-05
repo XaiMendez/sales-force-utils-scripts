@@ -1,5 +1,3 @@
-//http://mytutorialrack.com/
-//Check the complete course here https://mytutorialrack.com/salesforce-platform-developer-1-certification-course/
 //fetch the invoices created today, Note, you must have at least one invoice created today
 List<apex_invoice__c> invoiceList = [SELECT id, Name, APEX_Status__c, createdDate FROM APEX_Invoice__c];
 
